@@ -1,3 +1,9 @@
+<script setup>
+import Navbar from './components/Navbar.vue';
+import Hero from './components/Hero.vue';
+</script>
+
 <template>
-  <h1>Vue Jobs</h1>
+ <Navbar/>
+ <Hero title="Discover the Perfect Vue Opportunity for You" subtitle = " Secure the Vue role that aligns with your expertise and career goals."  />
 </template>
